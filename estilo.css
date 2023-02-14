@@ -1,0 +1,20 @@
+body {
+    font-family: sans-serif;
+    background: #ededed;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(4,minmax(min-content,max-content));
+    grid-auto-rows: 50px;
+}
+
+.grid-container .grid-item {
+    padding: 10px;
+    border: 1px solid #26a;
+    margin: 3px;
+}
+
+.btn-confirmar {
+    margin-top: 10px;
+}
